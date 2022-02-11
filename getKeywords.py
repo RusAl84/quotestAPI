@@ -20,7 +20,7 @@ def getKeywords(str1):
 if __name__ == '__main__':
     nltk.download('stopwords')
     nltk.download('punkt')
-    str1="Две вещи наполняют разум всё возрастающим удивлением и трепетом, чем чаще и интенсивнее к ним обращается ум мысли: звёздное небо надо мной и моральный закон внутри меня."
+    str1="Леша нежный и не съел ёжика"
     mas=getKeywords(str1)
     print(mas)
 
